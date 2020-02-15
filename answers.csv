@@ -1,0 +1,42 @@
+"Consider this list of numbers: 3 4 6 7 8 9. Assuming a Linear search starts with 3, after four comparisons, which number will be checked next?",8
+Which flow diagram symbol is used to signify control passing between stages of an algorithm?,Arrow
+In which situation does a linear search always perform better than a binary search?,If the data item to be found is the first in the list
+A terminal symbol in a flow diagram is used to signify…,The start or end of a process
+A programmer wants to show a WHILE command on a flow diagram. Which symbol should they use?,Rhombus
+What is the main advantage of a binary search compared to a linear search?,It is usually quicker to find the item in the list
+Consider this list of numbers: 9 3 6 8 4 7. An algorithm compares 9 and 3 followed by 9 and 6 followed by 9 and 8. Which algorithm is being described?,Bubble sort
+What is the main disadvantage of a binary search compared to a linear search?,It requires the data to be in order
+What is meant by the term 'algorithmic thinking'?,Identifying individual steps that a computer must take to solve a problem
+What is an advantage of a linear search over a binary search?,It is easier to program
+A rectangle symbol in a flow diagram is used to signify…,"Initialisation, a process or calculation"
+"When designing an algorithm, programmers can use…",Flow diagrams
+Which flow diagram symbol is used to signify an output?,Parallelogram
+"Consider this list of numbers: 3 4 6 7 8 9. Assuming a Linear search starts with 3, after four comparisons, which number will be checked next?",6
+A graphics artist for a 2D platform game decides that collectable apples will all be a solid green colour. Which aspect of computational thinking has been applied?,Abstraction
+A disadvantage of pseudocode is that…,There are no established standards
+A programmer wants to show a variable being added to a total on a flow diagram. Which symbol should they use?,Rectangle
+A programmer breaks a problem down into a number of algorithms. Which computational thinking approach has been applied?,Decomposition
+What is an advantage of a linear search over a binary search?,It does not require the data to be sorted
+Which flow diagram symbol is used to signify a decision?,Rhombus
+Consider this list of numbers L: 3 4 5 6 7 8 9. Which number would be checked first in a binary search?,6
+"Consider this list of numbers 3 4 5 6 7 8 9. If the number 8 was being searched for using a binary search algorithm, which numbers could be discarded after the first condition?",3 4 5
+Consider this list of numbers: 9 3 6 8 4 7. After three comparisons have been made the list is 3 6 9 8 4 7. Which algorithm is being applied?,Insertion sort
+Consider this list of numbers: 9 3 6 8 4 7. An algorithm compares 9 and 3 followed by 9 and 6 followed by 9 and 8. Which algorithm is being described?,Bubble sort
+Which flow diagram symbol is used to signify a process?,Rectangle
+An advantage of pseudocode is that…,It is very easy to convert pseudocode into actual code
+Which flow diagram symbol is used to signify an input?,Parallelogram
+"Consider this list of numbers: 3 4 5 6 7 8 9. If the number 3 was being searched for using a binary search, how many numbers would be checked before finding 3?",3
+What is meant by the term 'decomposition'?,Breaking a problem down into smaller sub-problems
+An arrow symbol in a flow diagram is used to signify…,Control passing between connected shapes
+A parallelogram symbol in a flow diagram is used to signify…,The input or output of data
+"Consider this list of numbers: 3 4 6 7 8 9. If the number 9 was to be found using a linear search, how many comparisons need to be made?",6
+A programmer wants to show an IF command on a flow diagram. Which symbol should they use?,Rhombus
+Consider this list of numbers: 9 3 6 8 4 7. A bubble sort algorithm starts from the first item in the list (9) and orders the list from lowest to highest number. What is the order of the numbers after one pass through all the numbers of the bubble sort algorithm on this list?,3 6 8 4 7 9
+An advantage of pseudocode is that…,It is a convenient way of designing algorithms to aid thinking logically
+What is meant by the term 'abstraction'?,Including the necessary details and leaving out the unnecessary details
+Consider this list of numbers L: 3 4 6 7 8 9. Which number would be checked first in a linear search?,3
+A rhombus symbol in a flow diagram is used to signify…,"A decision with a yes or no, true or false answer"
+Consider this list of numbers: 9 3 6 8 4 7. Why are they not suitable for a binary search?,The numbers are not in order
+"In the first part of the algorithm, the list is repeatedly divided in half until there is only one item in each list. Which algorithm is being described?",Merge sort
+Two lists: 3 2 9 and 1 4 6 become one list of 1 2 3 4 6 9 by comparing 3 & 1 followed by 3 & 2 etc. What is the name of the algorithm that has been used?,Merge sort
+A list is divided into unsorted and sorted data items. Each unsorted item is considered in turn and placed into the correct position of the sorted data items until all the items have been considered and are in order. Which algorithm is being described?,Insertion sort
