@@ -1,4 +1,5 @@
-questions on the computer science revision website https://smartrevise.online
+# Automatic-Smart-Revise
+ Automate answering questions on the computer science revision website https://smartrevise.online
 
 ## Usage
 1. Download **all** files from this repository
