@@ -40,3 +40,42 @@ Consider this list of numbers: 9 3 6 8 4 7. Why are they not suitable for a bina
 "In the first part of the algorithm, the list is repeatedly divided in half until there is only one item in each list. Which algorithm is being described?",Merge sort
 Two lists: 3 2 9 and 1 4 6 become one list of 1 2 3 4 6 9 by comparing 3 & 1 followed by 3 & 2 etc. What is the name of the algorithm that has been used?,Merge sort
 A list is divided into unsorted and sorted data items. Each unsorted item is considered in turn and placed into the correct position of the sorted data items until all the items have been considered and are in order. Which algorithm is being described?,Insertion sort
+"A program to add three numbers together outputs 145 from 1, 4 and 5 when input. It should output 10. What type of error is this?",Logic error
+What is an example of a 'defensive design consideration'?,Handling exceptions in programs
+"A program should output an initial followed by a surname, e.g. T Jones when an input string of Tom Jones is entered. Instead it outputs Tom S. What type of error is this?",Logic error
+Why does a programmer use comments in their code?,To explain the purpose of sections of code and how algorithms work
+A development environment highlights the word OUTPUT when attempting to run this code: OUTPUT('Enter your name') What type of error is this most likely to be?,Syntax error
+"The user enters their username for a website in capital letters, but usernames in the back-end database are stored in lowercase. What is the most appropriate technique a programmer can use to resolve this?",Input sanitisation
+A program asks for a month of the year as an integer. The user inputs March. This is an example of…,Invalid data
+A program asks for a month of the year as an integer. The user inputs 6. This is an example of…,Valid data
+Identify a range check.,"Input is between a minimum and maximum, e.g. 1 and 12"
+Final or terminal testing includes…,Testing that all the modules of a program work together as expected
+A logic error happens when…,The program completes but does not give the expected output
+A program asks for a month of the year as an integer. The user inputs 1. This is an example of…,Edge data
+Why does a programmer use descriptive variable names?,To make the program readable for another programmer
+A line of code states: print(Total cost) What type of error is this likely to generate?,Syntax error
+"If you were advising another programmer about using comments, what would you recommend?","Use a comment for each selection, iteration and procedure or function"
+Identify a presence check.,"Input of some data, e.g. user hasn't left the field blank"
+Which of these is NOT an exception a programmer should trap in their code?,No comments
+An online form asks a user for their email address. The user does not enter a string containing a @ symbol. This is an example of…,Invalid data
+A 'whitelist' is often used as a validation technique in programming. What is a whitelist?,"All the valid data inputs a program should accept. E.g. A, B, C in a menu"
+What is meant by the term 'sanitisation'?,Removing unwanted characters before processing inputs
+What is a reason for program testing at the implementation or post-development stage of development?,To check the program has acceptable performance
+A line of code states: x + y = z. What type of error is this likely to generate?,Syntax error
+When data is read from a file in programming it can retain the carriage return character which is not needed for processing. This is removed using what type of function?,Sanitisation
+What is meant by the term valid data?,Data that is within the input domain
+A line of code states: print('Hello World) What type of error is this likely to generate?,Syntax error
+A 'blacklist' is often used as a validation technique in programming. What is a blacklist?,Invalid data inputs a program should reject. E.g. /?* in filenames
+A program asks for a month of the year as an integer. The user inputs 12. This is an example of…,Edge data
+A syntax error happens when…,The rules of the language have been broken
+Identify a type check.,"Input is a number not a symbol, e.g. 0 not @"
+What is meant by the term invalid data?,Data that is outside the input domain
+What is an example of a 'defensive design consideration'?,Input sanitisation or validation
+What is a reason for program testing at the implementation or post-development stage of development?,To check the program meets the requirements
+Iterative testing can be described as…,Testing each module of a program as it is developed
+Why does a programmer use indentation in their code?,To identify where structures begin and end
+An online form asks a user for their email address. The user forgets to complete this box. This is an example of…,No data
+What is a reason for program testing at the implementation or post-development stage of development?,To check the program does not contain logic errors
+Identify a format check.,"Input of data in a pattern, e.g. LLN"
+What is meant by the term 'validation'?,Checking data input by the user meets specific criteria before processing
+What is meant by the term edge data?,Data at the extremes of the input domain
