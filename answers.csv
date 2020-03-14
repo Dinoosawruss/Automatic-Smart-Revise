@@ -79,3 +79,45 @@ What is a reason for program testing at the implementation or post-development s
 Identify a format check.,"Input of data in a pattern, e.g. LLN"
 What is meant by the term 'validation'?,Checking data input by the user meets specific criteria before processing
 What is meant by the term edge data?,Data at the extremes of the input domain
+Final or terminal testing includes…,Checking the program meets the expectations of the user with real data.
+"Consider this command: print(board[3,2]). What type of data structure is board?",Array
+What is meant by the term tracing in reference to integrated development environments?,Going through the program line by line checking the values of variables for debugging
+Which word should be used in this sentence? High level source code can be … into machine code using a compiler.,translated
+A focus on usability over optimal program efficiency is an example of…,High level language code
+"Structured programming concepts, such as IF-THEN-ELSE are associated with…",High level language code
+Which of these is one advantage of a compiler over an interpreter?,The code is optimised
+What is the purpose of a translator?,To translate source code into machine code
+All code is translated into…,Machine code
+Which of these is a feature of a high level programming language?,Translates to many different machine types
+What is the purpose of an assembler?,To translate low level code into machine code
+Which of these is a feature of compiled code in an iteration?,The code is translated once
+Which of these is one advantage of a compiler over an interpreter?,The code executes more quickly.
+Which of these is a feature of interpreted code in an iteration?,The code is translated many times
+Why would a programmer add indentation to their code?,"To indicate which code is within a procedure, function, condition or iteration"
+Which of these is a feature of a low level programming language?,Source code is harder to write
+An embedded system is running on very specialised hardware that is optimised for the task. A low level language is chosen for the development environment. What should be used to turn the code into binary?,Assembler
+Which of these is a feature of a low level programming language?,Translates to one type of machine
+Which word should be used in this sentence? High level source code can be translated into machine code using … .,a compiler
+"A student who is new to programming wants their code to run, even if it contains errors so that they can more easily see where the bugs are. What would you recommend?",An interpreter
+Binary is produced as a result of compilation of…,High level code
+Which of these features is typically provided by an integrated development environment?,Run-time environment
+Which word should be used in this sentence? Assembly language is translated into … using an assembler.,machine code
+What is the purpose of a compiler?,To translate high level code into machine code
+"Which of these would you associate with the term, 'error diagnostics'?",Messages from the compiler to the programmer
+Which of these is a feature of a high level programming language?,Source code is easier to write
+Mnemonics are associated with which type of code?,Assembly code
+Higher levels of abstraction from machine language is associated with which types of code?,High level language code
+Assembly is an example of…,Low level code
+Which word should be used in this sentence? Assembly language is … into machine code using an assembler.,translated
+Which word should be used in this sentence? Assembly language is translated into machine code using ….,an assembler
+Why would a programmer add a breakpoint to their code?,To stop the code at a certain point to assist in debugging
+Which of these is a feature of a low level programming language?,Written in assembly
+Which of these is a feature of a high level programming language?,Large set of instructions
+A device driver is created for a robotic arm using a low level language. Which language is likely to be used?,Assembly
+Which word should be used in this sentence? High level source code can be translated into machine code using … .,an interpreter
+A programmer typically writes their code using…,An integrated development environment
+Which word should be used in this sentence? High level … can be translated into machine code using a compiler.,source code
+A games programmer wants their code to execute as quickly as possible to maintain the best frame rate. They choose to develop their code in a high level language. What would you recommend?,A compiler
+Why is keyword highlighting a useful feature of an integrated development environment?,Check the syntax is correct at a glance
+Which of these is one advantage of an interpreter over a compiler?,It is easier to debug code
+Which of these instructions is an example of a mnemonic?,LDA
