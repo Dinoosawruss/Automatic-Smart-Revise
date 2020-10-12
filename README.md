@@ -27,3 +27,9 @@ This project taught me how to interact with the web and chrome using the seleniu
 
 # FAQ
 *Currently None*
+
+# Updates
+## main.py changes:
+* Changed some xpath code to target correct elements on updated site
+* Added new targeter and click event to remove the cookies button on startup
+* Added new targeter and click event to start the quiz properly with new interface
