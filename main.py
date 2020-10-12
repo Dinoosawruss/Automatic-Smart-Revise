@@ -1,21 +1,24 @@
 from selenium import webdriver
 from time import sleep
 from random import randint
-
 from secrets import username, password
-
 import csv
 
-class ReviseBot():
+
+class ReviseBot:
     def __init__(self):
         self.driver = webdriver.Chrome(executable_path='./chromedriver.exe')
 
     def login(self):
         self.driver.get('https://smartrevise.online/')
-
         sleep(2)
-
-        fb_btn = self.driver.find_element_by_xpath('/html/body/div[2]/div/div/div/a[1]')
+        
+        # Optional - removes the cookies pop up that blocks the login element on the page
+        cookie_button = self.driver.find_element_by_xpath('/html/body/div[1]/div/a')
+        cookie_button.click()
+        
+        # Change 1 - xpath updated to target new login button on page
+        fb_btn = self.driver.find_element_by_xpath('/html/body/div[2]/div/div[2]/div/div/a')
         fb_btn.click()
 
         email_in = self.driver.find_element_by_xpath('//*[@id="Email"]')
@@ -23,12 +26,16 @@ class ReviseBot():
 
         pw_in = self.driver.find_element_by_xpath('//*[@id="Password"]')
         pw_in.send_keys(password)
-
-        login_btn = self.driver.find_element_by_xpath('/html/body/div/div/div[1]/section/form/div[4]/button')
+        
+        # Change 2 - xpath updated to target the login button after credentials changed
+        login_btn = self.driver.find_element_by_xpath(
+            '/html/body/div[4]/div/div/div/div/div[2]/div/div/div/form/div[3]/div[2]/button')
         login_btn.click()
-
+    
     def course(self):
-        c_btn = self.driver.find_element_by_xpath('/html/body/div/div[3]/a/div/div')
+        # Change 3 - xpath updated to target course select button on page again, which has changed location
+        c_btn = self.driver.find_element_by_xpath(
+            '/html/body/div[2]/div/div/div[2]/div[3]/div[2]/div/div/div[2]/div/div/div/div/a/div')
         c_btn.click()
 
     def checkNone(self):
@@ -46,7 +53,14 @@ class ReviseBot():
         update_btn.click()
 
     def clickStart(self):
-        s_btn = self.driver.find_element_by_xpath('/html/body/div/div[1]/div[1]/a')
+        # Change 4 - updated xpath to press quiz button correctly
+        s_btn = self.driver.find_element_by_xpath(
+            '/html/body/div[2]/div/div/div[2]/div[2]/div/div[2]/div[1]/div[1]/div/a/div')
+        s_btn.click()
+        
+        # Change 6 - Added new line to press start of the quiz with updated xpath
+        s_btn = self.driver.find_element_by_xpath(
+            '/html/body/div[2]/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/a')
         s_btn.click()
 
     def idk(self):
@@ -54,7 +68,7 @@ class ReviseBot():
         idk_btn.click()
 
     def randomO(self):
-        o = randint(1,4)
+        o = randint(1, 4)
 
         oC_btn = self.driver.find_element_by_xpath(f'//*[@id="answercontainer"]/div[3]/a')
         oC_btn.click()
@@ -96,7 +110,7 @@ class ReviseBot():
                     inF = True
                     break
                  
-            if inF == True:
+            if inF is True:
                 if r[1] == o1:
                     o1_elem.click()
                     
@@ -113,11 +127,11 @@ class ReviseBot():
                 
                 correct = int(input("Correct Option: "))
 
-                arr = [o1,o2,o3,o4]
+                arr = [o1, o2, o3, o4]
                 correctAnsIndex = correct-1
                 correctAns = arr[correctAnsIndex]
 
-                arrBtn = [o1_elem,o2_elem,o3_elem,o4_elem]
+                arrBtn = [o1_elem, o2_elem, o3_elem, o4_elem]
                 arrBtn[correctAnsIndex].click()
 
                 aC = input("Was it correct? ").upper()[0]
@@ -131,11 +145,12 @@ class ReviseBot():
                     with open('answers.csv', 'a', newline='') as file:
                         writer = csv.writer(file)
                         writer.writerow([q, arr[aCA]])
-            
+
+
 bot = ReviseBot()
 bot.login()
 bot.course()
-#bot.checkAll()
+# bot.checkAll()
 bot.clickStart()
 
 while True:
