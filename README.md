@@ -15,6 +15,7 @@ Any contributors or developers of this project are not responsible for the way i
 
 ## Contributors 
 * Michael Dormand (Dinoosawruss)
+* [Ded-Ex](https://github.com/Ded-Ex)
 
 # Review
 ## What did this teach me?
