@@ -2,7 +2,8 @@
  Automate answering questions on the computer science revision website https://smartrevise.online
 
 ## Note
-I no longer have access to SmartRevise. If there are issues feel free to create an issue, however, I may not be able to solve most problems. If you are able to fix any issues, feel free to make a pull request
+I no longer have access to SmartRevise. If there are issues feel free to create an issue, however, I may not be able to solve most problems. If you are able to fix any issues, feel free to make a pull request <br>
+It appears SmartRevise has added protection against this see [this issue](https://github.com/Dinoosawruss/Automatic-Smart-Revise/issues/4) for more information
 
 ## Usage
 1. Download **all** files from this repository
