@@ -1,6 +1,9 @@
 # Automatic-Smart-Revise
  Automate answering questions on the computer science revision website https://smartrevise.online
 
+## Note
+I no longer have access to SmartRevise. If there are issues feel free to create an issue, however, I may not be able to solve most problems. If you are able to fix any issues, feel free to make a pull request
+
 ## Usage
 1. Download **all** files from this repository
 2. Ensure that python 3.7 or higher is installed and working on your machine 
