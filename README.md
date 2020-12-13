@@ -1,11 +1,20 @@
-# Automatic-Smart-Revise
- Automate answering questions on the computer science revision website https://smartrevise.online
+# THIS NO LONGER WORKS
+## Why?
+SmartRevise has added a system used to block bots connecting 
 
-## Note
-I no longer have access to SmartRevise. If there are issues feel free to create an issue, however, I may not be able to solve most problems. If you are able to fix any issues, feel free to make a pull request <br>
-It appears SmartRevise has added protection against this see [this issue](https://github.com/Dinoosawruss/Automatic-Smart-Revise/issues/4) for more information
+## Why not fix it?
+I've decided it is best to respect their wishes and not continue to work on the issue
+See [this issue](https://github.com/Dinoosawruss/Automatic-Smart-Revise/issues/3) for more information
+
+## Can I fix it?
+I can't stop you, however, it is probably best to respect their wishes
+
+# Automatic-Smart-Revise
+*Old README*<br>
+Automate answering questions on the computer science revision website https://smartrevise.online
 
 ## Usage
+**THIS NO LONGER WORKS AND IS AN OLD USAGE**
 1. Download **all** files from this repository
 2. Ensure that python 3.7 or higher is installed and working on your machine 
 3. Install the selenium web driver by opening the command prompt and typing `python3 -m pip install selenium`
